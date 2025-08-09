@@ -46,7 +46,7 @@
         compatible = "zmk,keymap";
 
         base {
-            display-name = "QWERTY";
+            display-name = "BASE";
 
             // --------------------------------------------------------------------------------
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |  MUTE |  PP   |  Y  |  U   |  I  |  O  |  P  | BSPC |
@@ -65,7 +65,7 @@
         };
 
         media {
-            display-name = "EXTRA 1";
+            display-name = "MEDIA";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -75,7 +75,7 @@
         };
 
         nav {
-            display-name = "EXTRA 2";
+            display-name = "NAV";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -85,7 +85,7 @@
         };
 
         mouse {
-            display-name = "EXTRA 3";
+            display-name = "MOUSE";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -95,7 +95,7 @@
         };
 
         symbols {
-            display-name = "EXTRA 4";
+            display-name = "SYMBOLS";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -105,7 +105,7 @@
         };
 
         numbers {
-            display-name = "EXTRA 5";
+            display-name = "NUMBERS";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -115,7 +115,7 @@
         };
 
         functions {
-            display-name = "EXTRA 6";
+            display-name = "FUNCTIONS";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans

@@ -15,7 +15,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        base {
             display-name = "QWERTY";
 
             // --------------------------------------------------------------------------------
@@ -25,16 +25,16 @@
             //                    | GUI | LWR | SPC |               | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp W  &kp C  &kp M     &kp P  &kp B      &kp C_MUTE  &kp C_PP  &kp X    &kp L  &kp O     &kp U      &kp J    &none
-&none  &kp R  &kp S  &kp T     &kp H  &kp F      &kp LALT    &kp RALT  &kp Y    &kp N  &kp A     &kp E      &kp I    &none
-&none  &kp Q  &kp V  &kp G     &kp D  &kp K                            &kp Z    &none  &kp SQT   &kp COMMA  &kp DOT  &none
-                     &kp LGUI  &mo 1  &kp SPACE                        &kp RET  &mo 2  &kp RALT
+&none  &kp W  &kp C  &kp M       &kp P  &kp B      &kp C_MUTE  &kp C_PP  &kp X    &kp L  &kp O     &kp U      &kp J    &none
+&none  &kp R  &kp S  &kp T       &kp H  &kp F      &kp LALT    &kp RALT  &kp Y    &kp N  &kp A     &kp E      &kp I    &none
+&none  &kp Q  &kp V  &kp G       &kp D  &kp K                            &kp Z    &none  &kp SQT   &kp COMMA  &kp DOT  &none
+                     &kp ESCAPE  &mo 1  &kp SPACE                        &kp RET  &mo 2  &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN &inc_dec_kp C_PREV C_NEXT &inc_dec_kp C_BRI_DN C_BRI_UP>;
         };
 
-        extra_layer_1 {
+        media {
             display-name = "EXTRA 1";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -44,7 +44,7 @@
             >;
         };
 
-        extra_layer_2 {
+        nav {
             display-name = "EXTRA 2";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -54,7 +54,7 @@
             >;
         };
 
-        extra_layer_3 {
+        mouse {
             display-name = "EXTRA 3";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -64,7 +64,7 @@
             >;
         };
 
-        extra_layer_4 {
+        symbols {
             display-name = "EXTRA 4";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -74,7 +74,7 @@
             >;
         };
 
-        extra_layer_5 {
+        numbers {
             display-name = "EXTRA 5";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -84,7 +84,7 @@
             >;
         };
 
-        extra_layer_6 {
+        functions {
             display-name = "EXTRA 6";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans

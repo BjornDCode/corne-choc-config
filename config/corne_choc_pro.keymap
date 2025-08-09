@@ -68,9 +68,9 @@
         media {
             display-name = "MEDIA";
             bindings = <
-&trans  &trans          &trans            &trans        &trans            &trans  &trans  &trans  &trans            &trans          &trans             &trans           &trans      &trans
-&trans  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &trans  &trans  &trans  &trans            &kp C_PREVIOUS  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_NEXT  &trans
-&trans  &trans          &trans            &trans        &trans            &trans                  &trans            &trans          &trans             &trans           &trans      &trans
+&trans  &trans          &trans            &trans        &trans            &trans  &trans  &trans  &trans            &trans          &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans      &trans
+&trans  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &trans  &trans  &trans  &trans            &kp C_PREVIOUS  &kp C_VOLUME_DOWN     &kp C_VOLUME_UP       &kp C_NEXT  &trans
+&trans  &trans          &trans            &trans        &trans            &trans                  &trans            &trans          &trans                &trans                &trans      &trans
                                           &trans        &trans            &trans                  &kp C_PLAY_PAUSE  &kp C_MUTE      &trans
             >;
         };
@@ -98,9 +98,9 @@
         numbers {
             display-name = "NUMBERS";
             bindings = <
-&trans  &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LG(LS(TAB))  &trans  &trans  &trans  &trans             &trans         &trans             &trans           &trans
+&trans  &kp GRAVE     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LG(LS(TAB))  &trans  &trans  &trans  &trans             &trans         &trans             &trans           &trans
 &trans  &kp NUMBER_0  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LG(TAB)      &trans  &trans  &trans  &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &trans
-&trans  &trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LG(GRAVE)                    &trans  &trans             &trans         &trans             &trans           &trans
+&trans  &kp CARET     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LG(GRAVE)                    &trans  &trans             &trans         &trans             &trans           &trans
                                     &trans        &trans        &trans                           &trans  &trans             &trans
             >;
         };
@@ -108,10 +108,10 @@
         symbols {
             display-name = "SYMBOLS";
             bindings = <
-&trans  &kp GRAVE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans  &trans  &trans  &trans  &trans             &trans         &trans             &trans           &trans
-&trans  &trans     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &trans  &trans  &trans  &trans  &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &trans
-&trans  &trans     &trans                &trans                 &trans  &trans                  &trans  &trans             &trans         &trans             &trans           &trans
-                                         &trans                 &trans  &trans                  &trans  &trans             &trans
+&trans  &kp PERCENT    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS  &kp EXCLAMATION  &trans  &trans  &trans  &trans             &trans         &trans             &trans           &trans
+&trans  &kp AT         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EQUAL  &kp DOLLAR       &trans  &trans  &trans  &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &trans
+&trans  &kp AMPERSAND  &kp BACKSLASH         &kp SLASH              &kp STAR   &kp POUND                        &trans  &trans             &trans         &trans             &trans           &trans
+                                             &trans                 &trans     &trans                           &trans  &trans             &trans
             >;
         };
 

@@ -98,30 +98,30 @@
         symbols {
             display-name = "SYMBOLS";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans             &trans         &trans             &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans             &trans         &trans             &trans           &trans
+                        &trans  &trans  &trans                  &trans  &trans             &trans
             >;
         };
 
         numbers {
             display-name = "NUMBERS";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans             &trans         &trans             &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans             &trans         &trans             &trans           &trans
+                        &trans  &trans  &trans                  &trans  &trans             &trans
             >;
         };
 
         functions {
             display-name = "FUNCTIONS";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans             &trans         &trans             &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans             &trans         &trans             &trans           &trans
+                        &trans  &trans  &trans                  &trans  &trans             &trans
             >;
         };
     };

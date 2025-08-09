@@ -77,10 +77,10 @@
         nav {
             display-name = "NAV";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                  &trans  &trans  &trans
+&trans          &trans            &trans        &trans            &trans  &trans  &trans  &trans  &kp LS(LG(Z))  &kp LG(Z)  &kp LG(V)      &kp LG(X)    &kp LG(C)  &trans
+&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &trans  &trans  &trans  &trans  &kp CAPSLOCK   &kp LEFT   &kp DOWN       &kp UP       &kp RIGHT  &trans
+&trans          &trans            &trans        &trans            &trans  &trans                  &trans         &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans
+                                                &trans            &trans  &trans                  &trans         &trans     &trans
             >;
         };
 
